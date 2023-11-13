@@ -1,0 +1,25 @@
+{
+    "nodes": 4,
+    "chunks": 3,
+    "uplink_capacities": [2, 3, 1, 4],
+    "downlink_capacities": [3, 2, 1, 2],
+    "chunks_by_node": {
+      "Node_0": {
+        "neighborhood": ["Node_1", "Node_2"],
+        "chunks": [0, 1]
+      },
+      "Node_1": {
+        "neighborhood": ["Node_0", "Node_2"],
+        "chunks": [0, 2]
+      },
+      "Node_2": {
+        "neighborhood": ["Node_0", "Node_1", "Node_3"],
+        "chunks": [1, 2]
+      },
+      "Node_3": {
+        "neighborhood": ["Node_2"],
+        "chunks": [2]
+      }
+    }
+  }
+  
