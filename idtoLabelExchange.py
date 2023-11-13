@@ -20,7 +20,7 @@ class IdtoLabelExchange:
         }
 
         # Specify the output JSON file
-        venv_path = os.path.abspath('.venv')
+        venv_path = os.path.abspath('./')
         output_file = os.path.join(venv_path, "output.json")
         #output_file = "output.json"
 
